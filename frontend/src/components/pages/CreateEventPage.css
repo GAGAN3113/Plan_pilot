@@ -1,0 +1,63 @@
+.create-event-container {
+  background-color: #cce6ff;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.create-event-header {
+  background-color: #5ba4f2;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.event-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.create-event-body {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.create-event-body h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #003366;
+}
+
+.event-form {
+  background-color: white;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.event-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.submit-btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

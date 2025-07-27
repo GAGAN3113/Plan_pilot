@@ -1,0 +1,100 @@
+/* src/components/pages/SignupPage.css */
+.signup-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #e6f0ff;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5ba4f2;
+  padding: 15px 30px;
+  color: #fff;
+  align-items: center;
+}
+
+.nav-left .logo {
+  height: 40px;
+}
+
+.nav-center a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-right a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-right button {
+  background-color: white;
+  color: #5ba4f2;
+  border: none;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.signup-form-box {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.form-icon {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.signup-form-box h1 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.signup-form-box h2 {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.signup-form-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-btn {
+  background-color: #5ba4f2;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-text {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #333;
+}

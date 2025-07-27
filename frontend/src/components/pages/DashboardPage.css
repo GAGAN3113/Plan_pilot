@@ -1,0 +1,109 @@
+/* src/components/pages/DashboardPage.css */
+.dashboard-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #cce6ff;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  background-color: #5ba4f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.header-left h1 {
+  color: #003366;
+  margin: 0;
+}
+
+.header-menu {
+  font-size: 28px;
+  cursor: pointer;
+  color: #003366;
+}
+
+.dashboard-body {
+  display: flex;
+}
+
+.dashboard-sidebar {
+  background-color: #e0f0ff;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dashboard-sidebar button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dashboard-main {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.dashboard-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-event-btn {
+  background-color: #003366;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dashboard-widgets {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.widget {
+  background: white;
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.upcoming-events {
+  margin-top: 40px;
+}
+
+.upcoming-events table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.upcoming-events th, .upcoming-events td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}

@@ -1,0 +1,77 @@
+.role-container {
+  background-color: #cce6ff;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.role-header {
+  background-color: #5ba4f2;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.role-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.role-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #003366;
+  flex-grow: 1;
+}
+
+.role-menu {
+  font-size: 28px;
+  cursor: pointer;
+  color: #003366;
+}
+
+.role-main {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.role-main h2 {
+  font-size: 22px;
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+.role-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.role-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #007bff;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.role-card h3 {
+  margin: 0 0 10px;
+  color: #007bff;
+}
+
+.role-card p {
+  font-size: 14px;
+  color: #333;
+}

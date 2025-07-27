@@ -1,0 +1,111 @@
+.login-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #cce6ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #5ba4f2;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left .logo {
+  width: 40px;
+}
+
+.nav-center a {
+  margin: 0 10px;
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-right a {
+  margin-right: 10px;
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-right button {
+  background-color: #003366;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-box {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-icon {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.login-form-box h1 {
+  margin: 10px 0;
+  color: #003366;
+}
+
+.login-form-box h2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.login-form-box input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-links {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.signup-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.signup-text span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
